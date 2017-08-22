@@ -1,0 +1,56 @@
+﻿body {
+    font-size: 16px;
+}
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1470px;
+    }
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+a {
+    transition: all ease .3s;
+}
+
+a,
+a:link,
+a:visited {
+    outline: none !important;
+    color: #e21d39;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darken(#e21d39, 20%);
+    text-decoration: none;
+}
+
+.flush {
+    padding: 0px
+}
+
+
+/* Equal Height Rows */
+
+.row-eq-height {
+    @media screen and (min-width: 768px) {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+div.page {
+    padding: 50px 0;
+}

@@ -1,0 +1,34 @@
+﻿
+/* Start Small 
+*  Get Out Box */
+
+.payload .content h2 {
+    margin-bottom: 22px;
+}
+
+/* Start Small */
+
+.payload {
+    .content {
+        /*padding: 80px 60px 124px 70px;*/
+        padding-top: 80px;
+        padding-right: 60px;
+        padding-bottom: 80px;
+        padding-left: 20px;
+
+        @media screen and (min-width: 1024px) {
+            padding-left: 5%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .image-box {
+            background: url('../images/coffee.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            figure {
+                display: none;
+            }
+        }
+    }
+}

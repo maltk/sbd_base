@@ -1,0 +1,50 @@
+﻿.sidebar {
+    text-align: center;
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.sidebar > div[class^='menu'] {
+
+    @media (min-width: 768px) {
+        padding-right: 70px;
+    }
+
+
+    ul.menu {
+        list-style: none;
+        padding: 0;
+
+        a {
+            color: #505050;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        > li {
+            margin: 0 0 20px;
+            letter-spacing: .15em;
+        }
+
+        li.current-menu-item > a,
+        > li a:hover {
+            color: #e21d39;
+        }
+
+        ul.sub-menu {
+            margin: 15px 0 10px;
+            padding: 0;
+
+            li {
+                list-style: none;
+                margin: 0 0 15px 20px;
+                padding: 0;
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
