@@ -1,0 +1,37 @@
+#sbd-contact {
+    .form-control {
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+        height: 40px; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    input[type='text'],
+    input[type='email'],
+    textarea {
+        background: #ebebeb;
+        color: #292929 !important;
+        letter-spacing: .75px;
+    }
+    input[type='text']::placeholder,
+    input[type='email']::placeholder,
+    textarea::placeholder {
+        color: #292929;
+        letter-spacing: .75px;
+    }
+    textarea {
+        height: 150px !important;
+        width: 100% !important;
+
+    }
+    .btn-default {
+        border-radius: 0;
+        border: none;
+        color: #292929;
+        text-transform: uppercase;
+        font-family: 'fira_sans_otmedium';
+        letter-spacing: 1.2px;
+    }
+}
