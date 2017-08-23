@@ -11,67 +11,118 @@ get_header(); ?>
 
 <div class="page">
     <?php
-    if(get_field( "preamble" )) :
+    // Start Block A
+    if(get_field( "block_a" )) :
     ?>
-    <!-- preamble -->
-    <section class="preamble">
+    <!-- Block A -->
+    <section class="block-a">
         <div class="container">
             <div class="row">
                 <?php
-        echo the_field('preamble');
+                echo the_field('block_a');
                                        ?>
             </div>
         </div>
     </section>
     <?php 
     endif;
+    //End A
     ?>
-
-    <!-- services -->
-    <section class="services">
-        <div class="container">
-            <div class="row"><?php
-                    echo the_field('services');
-                    ?>
-            </div>
-        </div>
-    </section>
 
     <?php
-    if(get_field( "payload" )) :
+    // Start Block B
+    if(get_field( "block_b" )) :
     ?>
     
-    <!-- payload -->
-    <section class="payload">
-        <div class="container-fluid">
-            <div class="row row-eq-height">
-                <div class="col-sm-6 col-sm-push-6 image-box flush">
-                    <figure>
-                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/images/coffee.jpg" />
-                    </figure>
-                </div>
-                <div class="col-sm-6 col-sm-pull-6 dark flush content"><?php
-                        echo the_field('payload');
-                                                                       ?>
-                </div>
+    <!-- Block B -->
+    <section class="block-b">
+        <div class="container">
+            <div class="row">
+                <?php
+                echo the_field('block_b');
+                ?>
             </div>
         </div>
     </section>
     <?php
     endif;
+    //End B
     ?>
 
-    <!-- trailer -->
-    <section class="trailer">
+
+    <?php
+    // Start Block C
+    if(get_field( "block_c" )) :
+    ?>
+    
+    <!-- Block C -->
+    <section class="block-c">
+        <?php
+        echo the_field('block_c');
+        ?>
+    </section>
+    <?php
+    endif;
+    //End C
+    ?>
+
+
+    <?php
+    // Start Block D
+    if(get_field( "block_d" )) :
+    ?>
+    
+    <!-- Block D -->
+    <section class="block-d">
+        <?php
+        echo the_field('block_d');
+        ?>
+    </section>
+    <?php
+    endif;
+    //End D
+    ?>
+
+
+    <?php
+    // Start Block E
+    if(get_field( "block_e" )) :
+    ?>
+
+    <!-- Block E -->
+    <section class="block-e">
         <div class="container">
             <div class="row">
                 <?php
-                echo the_field('trailer');
+        echo the_field('block_e');
                 ?>
-                
             </div>
         </div>
     </section>
+    <?php
+    endif;
+    //End E
+    ?>
+
+    <?php
+    // Start Block F
+    if(get_field( "block_f" )) :
+    ?>
+
+    <!-- Block E -->
+    <section class="block-f">
+        <div class="container">
+            <div class="row">
+                <?php
+        echo the_field('block_f');
+                ?>
+            </div>
+        </div>
+    </section>
+    <?php
+    endif;
+    //End E
+    ?>
 
 </div>
 

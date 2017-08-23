@@ -5,13 +5,16 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package SBD_Base
+ * 
+ *  Turn off/on parallax
+ *  
  */
 
 ?>
 
 
 <div class="heroWrapper">
-    <div class="hero">
+    <div class="hero parallax">
         <div class="container">
             <div class="row">
                 <div class="col-12">

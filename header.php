@@ -48,7 +48,7 @@
 					'container'         => '',
 					'container_class'   => '',
 					'container_id'      => '',
-					'menu_class'        => 'navbar-nav mr-auto',
+					'menu_class'        => 'navbar-nav ml-auto',
 					'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
 					'walker'            => new wp_bootstrap_navwalker())
 				);

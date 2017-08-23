@@ -1,20 +1,24 @@
 /* Services */
 
-.services {
+.block-a {
     text-align: center;
     background: #e21d39;
+
     .section-heading .section-letter {
         left: calc(50% - 74px);
         color: #d31a35;
     }
+
     .section-heading .section-title {
         color: #fff;
     }
+
     .service-title {
         font-family: 'fira_sans_otbold';
         text-transform: uppercase;
         letter-spacing: 1px;
     }
+
     p {
         color: #fff;
     }
@@ -24,32 +28,40 @@
 /* Start Small 
 *  Get Out Box */
 
-.start-small .content h3,
-.get-out-box .content h3 {
+.block-c h3 {
     font-family: 'fira_sans_otmedium';
     font-size: 36px;
     margin-bottom: 22px;
 }
 
+.start-small,
+.get-out-box {
+    width: 100%;
 
+    .content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
 /* Start Small */
-
 .start-small {
     .content {
         /*padding: 80px 60px 124px 70px;*/
-        padding-top: 80px;
+        
         padding-right: 60px;
-        padding-bottom: 80px;
         padding-left: 20px;
         color: #fff;
+
         @media screen and (min-width: 1024px) {
             padding-left: 5%;
         }
     }
+
     @media screen and (min-width: 768px) {
         .image-box {
-            background: url('../img/start-small.jpg') no-repeat;
+            background: url('../../assets/images/sbd/start-small.jpg') no-repeat;
             background-size: cover;
+
             figure {
                 display: none;
             }
@@ -63,24 +75,27 @@
 .get-out-box {
     .content {
         /*padding: 80px 60px 124px 70px;*/
-        padding-top: 80px;
+        
         padding-left: 60px;
-        padding-bottom: 80px;
         padding-right: 20px;
         color: #000;
         text-align: right;
+
         @media screen and (min-width: 1024px) {
             padding-right: 5%;
         }
     }
+
     @media screen and (min-width: 768px) {
         .image-box {
-            background: url('../img/get-out-box.jpg') no-repeat;
+            background: url('../../assets/images/sbd/get-out-box.jpg') no-repeat;
             background-size: cover;
+
             figure {
                 display: none;
             }
         }
+
         .content {
             text-align: left;
         }
@@ -90,24 +105,29 @@
 
 /* Work We've Done */
 
-.our-work {
+.block-d {
     .section-heading .section-letter {
         left: calc(50% - 52.5px);
     }
+
     .projects {
         list-style: none;
         padding: 0;
         margin: 0;
+
         .project-item {
             position: relative;
+
             @media screen and (min-width: 768px) {
                 float: left;
                 width: 50%;
             }
+
             @media screen and (min-width: 992px) {
                 float: left;
                 width: 33.33333%;
             }
+
             .project-teaser {
                 .project-teaser-image {
                     img {
@@ -115,19 +135,23 @@
                         width: 100%;
                     }
                 }
+
                 .project-teaser-caption {
                     display: none;
                     text-align: center;
+
                     .project-title {
                         font-family: 'fira_sans_otmedium';
                         font-size: 2.2em;
                         line-height: 1.2;
                     }
+
                     .project-type {
                         font-family: 'fira_sans_otregular';
                         font-size: 1.8em;
                     }
                 }
+
                 &:hover .project-teaser-caption {
                     position: absolute;
                     top: 0;
@@ -147,26 +171,32 @@
         }
     }
 }
-
-.contact {
+/* Contact Form */
+.block-e {
     .section-heading .section-letter {
         left: calc(50% - 30px);
     }
+
     .left {
         text-align: right;
     }
+
     .right {
         text-align: left;
     }
+
     .btn-right {
         float: right;
     }
+
     .info-box {
         margin-bottom: 25px;
         text-align: center;
+
         @media screen and (min-width: 768px) {
             text-align: left;
         }
+
         h4 {
             font-family: 'fira_sans_otbold';
             text-transform: uppercase;
@@ -174,6 +204,7 @@
             color: #292929;
             font-size: 1.4em;
         }
+
         a {
             color: #747474;
             font-size: 1.1em;
