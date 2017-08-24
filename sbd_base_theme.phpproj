@@ -101,12 +101,11 @@
     <Compile Include="style.min.css" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="acf-json\" />
     <Folder Include="assets\css" />
     <Folder Include="assets\fonts" />
     <Folder Include="assets\fonts\exo2\" />
-    <Folder Include="assets\fonts\firaSansOT\" />
     <Folder Include="assets\images" />
-    <Folder Include="assets\images\sbd\" />
     <Folder Include="assets\js" />
     <Folder Include="assets\sass\elements" />
     <Folder Include="assets\sass\media" />
@@ -118,9 +117,13 @@
     <Folder Include="assets\sass\sbd" />
     <Folder Include="assets\sass\sbd\base\footer\" />
     <Folder Include="assets\sass\sbd\base\" />
-    <Folder Include="assets\sass\sbd\site-theme\" />
     <Folder Include="assets\sass\sbd\base\shared\" />
     <Folder Include="assets\sass\sbd\base\sidebar\" />
+    <Folder Include="assets\sass\sbd\content\" />
+    <Folder Include="assets\sass\sbd\footer\" />
+    <Folder Include="assets\sass\sbd\header\" />
+    <Folder Include="assets\sass\sbd\shared\" />
+    <Folder Include="assets\sass\sbd\sidebar\" />
     <Folder Include="assets\sass\site\primary" />
     <Folder Include="assets\sass\site\secondary" />
     <Folder Include="assets\sass\site" />
@@ -134,6 +137,7 @@
     <Folder Include="template-parts\page\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="acf-json\group_598d2c864a086.json" />
     <Content Include="assets\fonts\exo2\exo2-bold-webfont.eot" />
     <Content Include="assets\fonts\exo2\exo2-bold-webfont.svg" />
     <Content Include="assets\fonts\exo2\exo2-bold-webfont.ttf" />
@@ -154,40 +158,27 @@
     <Content Include="assets\fonts\exo2\exo2-regular-webfont.ttf" />
     <Content Include="assets\fonts\exo2\exo2-regular-webfont.woff" />
     <Content Include="assets\fonts\exo2\exo2-regular-webfont.woff2" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-bold-webfont.eot" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-bold-webfont.svg" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-bold-webfont.ttf" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-bold-webfont.woff" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-bold-webfont.woff2" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-medium-webfont.eot" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-medium-webfont.svg" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-medium-webfont.ttf" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-medium-webfont.woff" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-medium-webfont.woff2" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-regular-webfont.eot" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-regular-webfont.svg" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-regular-webfont.ttf" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-regular-webfont.woff" />
-    <Content Include="assets\fonts\firaSansOT\firasansot-regular-webfont.woff2" />
-    <Content Include="assets\images\sbd\get-out-box.jpg" />
-    <Content Include="assets\images\sbd\SB_Hero.jpg" />
-    <Content Include="assets\images\sbd\start-small.jpg" />
     <Content Include="assets\js\bootstrap.js" />
     <Content Include="assets\js\popper.min.js" />
-    <Content Include="assets\sass\sbd\site-theme\contact-form-sbd.scss" />
+    <Content Include="assets\sass\sbd\base.scss" />
     <Content Include="assets\sass\sbd\base\content\content.scss" />
-    <Content Include="assets\sass\sbd\site-theme\front-page-sbd.scss" />
     <Content Include="assets\sass\sbd\base\content\front-page.scss" />
-    <Content Include="assets\sass\sbd\site-theme\footer-sbd.scss" />
     <Content Include="assets\sass\sbd\base\footer\footer.scss" />
-    <Content Include="assets\sass\sbd\site-theme\header-sbd.scss" />
     <Content Include="assets\sass\sbd\base\header\hero.scss" />
     <Content Include="assets\sass\sbd\base\header\navbar.scss" />
-    <Content Include="assets\sass\sbd\site-theme\global-sbd.scss" />
     <Content Include="assets\sass\sbd\base\shared\global.scss" />
     <Content Include="assets\sass\sbd\base\shared\shared.scss" />
     <Content Include="assets\sass\sbd\base\shared\typography.scss" />
     <Content Include="assets\sass\sbd\base\sidebar\sidebar.scss" />
-    <Content Include="assets\sass\sbd\site-theme\theme.scss" />
+    <Content Include="assets\sass\sbd\content\content.scss" />
+    <Content Include="assets\sass\sbd\content\front-page.scss" />
+    <Content Include="assets\sass\sbd\footer\footer.scss" />
+    <Content Include="assets\sass\sbd\header\header.scss" />
+    <Content Include="assets\sass\sbd\header\hero.scss" />
+    <Content Include="assets\sass\sbd\header\navbar.scss" />
+    <Content Include="assets\sass\sbd\shared\global.scss" />
+    <Content Include="assets\sass\sbd\shared\shared.scss" />
+    <Content Include="assets\sass\sbd\shared\typography.scss" />
+    <Content Include="assets\sass\sbd\sidebar\sidebar.scss" />
   </ItemGroup>
 </Project>
