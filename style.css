@@ -391,18 +391,29 @@ section.our-work {
 /* Services */
 .block-a {
   text-align: center;
-  background: #e21d39; }
+  background-color: gray;
+  /*#e21d39*/ }
   .block-a .section-heading .section-letter {
     left: calc(50% - 74px);
-    color: #d31a35; }
+    color: gainsboro;
+    /*#d31a35*/ }
   .block-a .section-heading .section-title {
     color: #fff; }
+  .block-a .service-item {
+    padding-bottom: 45px; }
   .block-a .service-title {
     font-family: 'fira_sans_otbold';
     text-transform: uppercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    margin-top: 32px;
+    margin-bottom: 20px; }
   .block-a p {
     color: #fff; }
+  .block-a figure {
+    /*max-width: 45%;*/
+    margin: 0 auto;
+    max-width: 160px;
+    height: 160px; }
 
 /* Start Small 
 *  Get Out Box */

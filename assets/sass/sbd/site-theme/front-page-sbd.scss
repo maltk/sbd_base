@@ -2,11 +2,10 @@
 
 .block-a {
     text-align: center;
-    background: #e21d39;
-
+    background-color: gray; /*#e21d39*/
     .section-heading .section-letter {
         left: calc(50% - 74px);
-        color: #d31a35;
+        color: gainsboro; /*#d31a35*/
     }
 
     .section-heading .section-title {
