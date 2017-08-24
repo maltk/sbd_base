@@ -13,14 +13,27 @@
         color: #fff;
     }
 
+    .service-item {
+        padding-bottom: 45px;
+    }
+
     .service-title {
         font-family: 'fira_sans_otbold';
         text-transform: uppercase;
         letter-spacing: 1px;
+        margin-top: 32px;
+        margin-bottom: 20px;
     }
 
     p {
         color: #fff;
+    }
+
+    figure {
+        /*max-width: 45%;*/
+        margin: 0 auto;
+        max-width: 160px;
+        height: 160px;
     }
 }
 
@@ -47,7 +60,6 @@
 .start-small {
     .content {
         /*padding: 80px 60px 124px 70px;*/
-        
         padding-right: 60px;
         padding-left: 20px;
         color: #fff;
@@ -75,7 +87,6 @@
 .get-out-box {
     .content {
         /*padding: 80px 60px 124px 70px;*/
-        
         padding-left: 60px;
         padding-right: 20px;
         color: #000;
