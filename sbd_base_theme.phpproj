@@ -69,6 +69,7 @@
     <Compile Include="languages\readme.txt" />
     <Compile Include="languages\sbd_base.pot" />
     <Compile Include="template-parts\content-none.php" />
+    <Compile Include="template-parts\header\secondary-navigation.php" />
     <Compile Include="template-parts\page\content-page.php" />
     <Compile Include="template-parts\content-search.php" />
     <Compile Include="template-parts\content.php" />

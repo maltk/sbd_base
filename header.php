@@ -23,37 +23,50 @@
 <body <?php body_class(); ?>>
 
         <!--<a class="skip-link screen-reader-text" href="#content"><?php //esc_html_e( 'Skip to content', 'sbd_base' ); ?></a>-->
-        <header class="navbar navbar-expand-xl navbar-sbd">
+        <header class="siteHeader">
+            <?php
+            $displaySecondNav = get_field('secondary_navigation', 'option');
 
-            <?php if ( get_theme_mod( 'sbd_logo' ) ) : ?>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="site-logo" class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-
-                <img src="<?php echo get_theme_mod( 'sbd_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-
-            </a><?php else : ?>
-
-            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-            <p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <?php
-				wp_nav_menu( array(
-					//'menu'              => 'Testing Menu',
-					'theme_location'    => 'primary',
-					'depth'             => 2,
-					'container'         => '',
-					'container_class'   => '',
-					'container_id'      => '',
-					'menu_class'        => 'navbar-nav ml-auto',
-					'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-					'walker'            => new wp_bootstrap_navwalker())
-				);
-                ?>
+            // do something with $displaySecondNav
+            if ($displaySecondNav) : ?>
+            <div class="secondaryNavigation">
+                <?php get_template_part( 'template-parts/header/secondary-navigation'); ?>
             </div>
+            <?php endif; ?>
+            
+            <div class="navbar navbar-expand-xl navbar-sbd primaryNavigation">
+                <?php if ( get_theme_mod( 'sbd_logo' ) ) : ?>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="site-logo" class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+
+                    <img src="<?php echo get_theme_mod( 'sbd_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+
+                </a><?php else : ?>
+
+                <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                <p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <?php
+				    wp_nav_menu( array(
+					    //'menu'              => 'Testing Menu',
+					    'theme_location'    => 'primary',
+					    'depth'             => 2,
+					    'container'         => '',
+					    'container_class'   => '',
+					    'container_id'      => '',
+					    'menu_class'        => 'navbar-nav ml-auto',
+					    'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+					    'walker'            => new wp_bootstrap_navwalker())
+				    );
+                    ?>
+                </div>
+            </div>
+
+            
         </header>
 
 
