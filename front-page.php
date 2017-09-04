@@ -17,11 +17,10 @@ get_header(); ?>
     <!-- Block A -->
     <section class="block-a">
         <div class="container">
-            <div class="row">
-                <?php
-                echo the_field('block_a');
-                                       ?>
-            </div>
+            
+            <?php
+            echo the_field('block_a');
+                                    ?>
         </div>
     </section>
     <?php 
@@ -37,11 +36,10 @@ get_header(); ?>
     <!-- Block B -->
     <section class="block-b">
         <div class="container">
-            <div class="row">
-                <?php
-                echo the_field('block_b');
-                ?>
-            </div>
+            <?php
+            echo the_field('block_b');
+            ?>
+            
         </div>
     </section>
     <?php
@@ -92,11 +90,9 @@ get_header(); ?>
     <!-- Block E -->
     <section class="block-e">
         <div class="container">
-            <div class="row">
-                <?php
-        echo the_field('block_e');
-                ?>
-            </div>
+            <?php
+                echo the_field('block_e');
+            ?>
         </div>
     </section>
     <?php
@@ -109,19 +105,17 @@ get_header(); ?>
     if(get_field( "block_f" )) :
     ?>
 
-    <!-- Block E -->
+    <!-- Block F -->
     <section class="block-f">
         <div class="container">
-            <div class="row">
-                <?php
-        echo the_field('block_f');
-                ?>
-            </div>
+            <?php
+                echo the_field('block_f');
+            ?>
         </div>
     </section>
     <?php
     endif;
-    //End E
+    //End F
     ?>
 
 </div>
