@@ -524,4 +524,8 @@ div.page {
 
 footer {
   padding: 25px 0; }
+  footer .sbd-site-signature {
+    color: #fff !important;
+    font-size: 1.4rem;
+    transition: all ease .3s; }
 
