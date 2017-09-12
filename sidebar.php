@@ -12,7 +12,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 
-<div class="col-lg-4 sidebar">
+<div class="col-md-4 sidebar">
 
     <?php do_action( 'before_sidebar' ); ?>
 

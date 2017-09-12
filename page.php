@@ -25,7 +25,7 @@ get_header(); ?>
                 <?php
                 get_sidebar();
                 ?>
-                <div class="col-lg-8 main-content">
+                <div class="col-md-8 main-content">
                     <?php
                     while ( have_posts() ) :
                         the_post();

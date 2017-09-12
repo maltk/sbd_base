@@ -491,11 +491,11 @@ div.page {
 
 .sidebar {
   text-align: center; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .sidebar {
       text-align: left; } }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .sidebar > div[class^='menu'] {
     padding-right: 70px; } }
 
