@@ -81,6 +81,7 @@
     <Compile Include="compilerconfig.json" />
     <Compile Include="template-parts\header\content-page-title.php" />
     <Compile Include="template-parts\heros\front-page-hero.php" />
+    <Compile Include="templates\full-width.php" />
     <None Include="compilerconfig.json.defaults" />
     <Compile Include="footer.php" />
     <Compile Include="functions.php" />
@@ -136,6 +137,7 @@
     <Folder Include="template-parts\header\" />
     <Folder Include="template-parts\heros\" />
     <Folder Include="template-parts\page\" />
+    <Folder Include="templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="acf-json\group_598d2c864a086.json" />
