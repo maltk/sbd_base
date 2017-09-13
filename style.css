@@ -495,7 +495,7 @@ div.page {
     .sidebar {
       text-align: left; } }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .sidebar > div[class^='menu'] {
     padding-right: 70px; } }
 
