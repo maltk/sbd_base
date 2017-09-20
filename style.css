@@ -403,7 +403,7 @@ div.page {
     .navbar-nav {
       width: 100%;
       justify-content: flex-end; } }
-  .navbar-nav .navbar-nav li:not(:first-of-type) {
+  .navbar-nav li:not(:first-of-type) {
     margin-left: 25px; }
   .navbar-nav li.current-page-parent > .nav-link {
     font-family: 'exo_2medium'; }
