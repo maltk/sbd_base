@@ -9,7 +9,7 @@ acf_add_local_field_group(array (
 		array (
 			'key' => 'field_59c9532e2828b',
 			'label' => 'Page Title Image',
-			'name' => 'page_title_image',
+			'name' => 'page_title_image_url',
 			'type' => 'image',
 			'instructions' => '',
 			'required' => 0,
@@ -36,22 +36,12 @@ acf_add_local_field_group(array (
 			array (
 				'param' => 'post_type',
 				'operator' => '==',
-				'value' => 'post',
-			),
-			array (
-				'param' => 'post_type',
-				'operator' => '==',
 				'value' => 'page',
-			),
-			array (
-				'param' => 'post_type',
-				'operator' => '==',
-				'value' => 'staff-member',
 			),
 		),
 	),
 	'menu_order' => 0,
-	'position' => 'side',
+	'position' => 'normal',
 	'style' => 'seamless',
 	'label_placement' => 'top',
 	'instruction_placement' => 'label',
