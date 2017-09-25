@@ -27,7 +27,7 @@
 global $post;
 echo $post->ID;
 
-the_field('page_title_image_url',$post->ID);
+echo get_field('page_title_image_url',$post->ID);
 
 ?>
 
