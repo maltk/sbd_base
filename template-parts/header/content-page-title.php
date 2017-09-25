@@ -27,10 +27,11 @@
 global $post;
 echo $post->ID;
 
+the_field('page_title_image_url',$post->ID);
 
 ?>
 
-<div class="page-header" style="background-image: url(<?php the_field('page_title_image_url',9); ?>);">
+<div class="page-header" style="background-image: url(<?php the_field('page_title_image_url',$post->ID); ?>);">
     <div class="container">
         <?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
         <?php
