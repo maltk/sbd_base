@@ -17,7 +17,7 @@
 <meta name="author" content="">
 <!--<link rel="icon" href="../../../../favicon.ico">-->
 
-<?php wp_head(); global $post;?>
+<?php wp_head();?>
 </head>
 
 <body <?php body_class(); ?>>
