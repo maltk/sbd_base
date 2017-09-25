@@ -39,10 +39,24 @@ acf_add_local_field_group(array (
 				'value' => 'page',
 			),
 		),
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'post',
+			),
+		),
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'staff-member',
+			),
+		),
 	),
 	'menu_order' => 0,
-	'position' => 'normal',
-	'style' => 'seamless',
+	'position' => 'side',
+	'style' => 'default',
 	'label_placement' => 'top',
 	'instruction_placement' => 'label',
 	'hide_on_screen' => '',
