@@ -24,7 +24,7 @@
 
 <?php 
 
-global $post;
+
 echo $post->ID;
 
 
