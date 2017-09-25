@@ -201,6 +201,11 @@ if( function_exists('acf_add_options_page') ) {
 
 }
 
+/*
+ * Set specific page header page title image
+ */
+ require get_template_directory() . '/inc/acf-field-groups.php';
+
 
 ///*
 // * ACF Sidebar Loader

@@ -61,6 +61,7 @@
     <Compile Include="assets\sass\site\_site.scss" />
     <Compile Include="assets\sass\style.scss" />
     <Compile Include="front-page.php" />
+    <Compile Include="inc\acf-field-groups.php" />
     <Compile Include="inc\customizer.php" />
     <Compile Include="inc\extras.php" />
     <Compile Include="inc\jetpack.php" />
