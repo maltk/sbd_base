@@ -22,8 +22,14 @@
     </div>
 </div>
 
+<?php 
 
-<div class="page-header" style="background-image: url(<?php the_field('page_title_image_url'); ?>);">
+global $post;
+
+
+?>
+
+<div class="page-header" style="background-image: url(<?php the_field('page_title_image_url',  $post->ID); ?>);">
     <div class="container">
         <?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
         <?php
