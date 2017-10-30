@@ -23,7 +23,8 @@ global $post;
 <div class="page-header" 
     <?php 
         if(the_field('page_title_image_url')) {
-            echo "style='background-image: url('".the_field('page_title_image_url',$post->ID)."');";
+            //echo "style='background-image: url('".the_field('page_title_image_url',$post->ID)."');";
+            echo "style=''";
         }
     ?>>
     <div class="container">
