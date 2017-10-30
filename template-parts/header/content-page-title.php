@@ -5,6 +5,19 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package SBD_Base
+
+
+
+
+
+ if(the_field('page_title_image_url')) {
+            //echo "style='background-image: url('".the_field('page_title_image_url',$post->ID)."');";
+            echo "style=''";
+        }
+
+
+
+
  */
 
 ?>
@@ -20,13 +33,7 @@ global $post;
 
 ?>
 
-<div class="page-header" 
-    <?php 
-        if(the_field('page_title_image_url')) {
-            
-            echo "style=''";
-        }
-    ?>>
+<div class="page-header">
     <div class="container">
         <?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
         <?php
