@@ -34,7 +34,7 @@ $imagePath = get_field('page_title_image_url',$post->ID);
 
 ?>
 
-<div class="page-header" <?php if(get_field('page_title_image_url')) { echo "style=background-image:url(\'{$imagePath}\');"; }?>>
+<div class="page-header" <?php if(get_field('page_title_image_url')) { echo "style=background-image:url('{$imagePath}');"; }?>>
     <div class="container">
         <?php the_title( '<h1 class="page-title">', '</h1>' ); ?>
         <?php
