@@ -82,7 +82,6 @@
     <Compile Include="compilerconfig.json" />
     <Compile Include="template-parts\header\content-page-title.php" />
     <Compile Include="template-parts\heros\front-page-hero.php" />
-    <Compile Include="templates\full-width.php" />
     <None Include="compilerconfig.json.defaults" />
     <Compile Include="footer.php" />
     <Compile Include="functions.php" />
@@ -180,6 +179,7 @@
     <Content Include="assets\sass\sbd\header\header.scss" />
     <Content Include="assets\sass\sbd\header\hero.scss" />
     <Content Include="assets\sass\sbd\header\navbar.scss" />
+    <Content Include="assets\sass\sbd\header\page-title.scss" />
     <Content Include="assets\sass\sbd\shared\global.scss" />
     <Content Include="assets\sass\sbd\shared\shared.scss" />
     <Content Include="assets\sass\sbd\shared\typography.scss" />
