@@ -1,9 +1,15 @@
 ﻿.page-header {
-    background-size:cover;
+    background-size: cover;
     background-position: left top;
 
     .page-title {
-        padding: 122px 0;
+        /*padding: 122px 0;*/
+        padding: 46px 0;
+
+        @media (min-width: 768px) {
+            padding: 160px 0;
+        }
+
         line-height: 100px;
         color: #fff;
         text-align: center;
